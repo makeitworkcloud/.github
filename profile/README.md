@@ -1,6 +1,6 @@
 # Make IT Work Cloud
 
-Welcome to the GitHub page for [makeitwork.cloud](htps://makeitwork.cloud/), a personal project consisting mostly of sandbox infrastructure.
+Welcome to the GitHub page for [makeitwork.cloud](https://makeitwork.cloud/), a personal project consisting mostly of sandbox infrastructure.
 
 ## About
 
