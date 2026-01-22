@@ -10,30 +10,30 @@ Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.clo
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                           INFRASTRUCTURE                                │
+│                              DEPLOY                                     │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  tfroot-aws          AWS S3 buckets, IAM (OpenTofu)                     │
-│  tfroot-cloudflare   DNS, tunnels, Zero Trust (OpenTofu)                │
-│  tfroot-github       Org settings, repos, teams (OpenTofu)              │
-│  tfroot-libvirt      VMs on local libvirt hypervisor (OpenTofu)         │
+│  ansible-site-cluster Deploys CRC cluster via ansible-role-crc          │
+│  tfroot-aws           AWS S3 buckets, IAM (OpenTofu)                    │
+│  tfroot-cloudflare    DNS, tunnels, Zero Trust (OpenTofu)               │
+│  tfroot-github        Org settings, repos, teams (OpenTofu)             │
+│  tfroot-libvirt       VMs on local libvirt hypervisor (OpenTofu)        │
 ├─────────────────────────────────────────────────────────────────────────┤
-│                           CONFIGURATION                                 │
+│                             CONFIGURE                                   │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  ansible-site-cluster    Deploys CRC cluster via ansible-role-crc      │
-│  ansible-role-crc        OpenShift Local + ArgoCD + KSOPS              │
-│  ansible-project-libvirt Configures libvirt GitHub Actions runners     │
+│  ansible-project-libvirt Configures libvirt GitHub Actions runners      │
+│  kustomize-cluster       GitOps manifests for OpenShift (ArgoCD synced) │
 ├─────────────────────────────────────────────────────────────────────────┤
-│                           WORKLOADS                                     │
+│                             WORKLOADS                                   │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  kustomize-cluster   GitOps manifests for OpenShift (ArgoCD synced)    │
 │  www                 Static website content → S3                        │
 ├─────────────────────────────────────────────────────────────────────────┤
-│                           SHARED                                        │
+│                              SHARED                                     │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  terraform-libvirt-domain   Reusable OpenTofu module for libvirt VMs   │
-│  shared-workflows           Reusable GitHub Actions workflows          │
-│  images                     Container images and shared configs        │
-│  cflan                      Cloudflare LAN utilities                   │
+│  ansible-role-crc           Reusable Ansible Role to Deploy OpenShift   │
+│  terraform-libvirt-domain   Reusable OpenTofu module for libvirt VMs    │
+│  shared-workflows           Reusable GitHub Actions workflows           │
+│  images                     Container images and shared configs         │
+│  cflan                      Cloudflare LAN utilities for servers        │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
