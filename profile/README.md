@@ -35,8 +35,8 @@ Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.clo
 
 ## Bootstrap Order
 
-1. `tfroot-github` → creates repos and org settings
-2. `tfroot-aws` → S3 buckets for state and web hosting
+1. `tfroot-aws` → S3 buckets for state backend and web hosting
+2. `tfroot-github` → creates repos and org settings
 3. `tfroot-cloudflare` → DNS, tunnels, Zero Trust
 4. `tfroot-libvirt` → provision VMs
 5. `ansible-project-libvirt` → configure GitHub runners
