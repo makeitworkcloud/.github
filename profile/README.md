@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="makeitwork-agent.png" alt="Make IT Work Agent" width="300">
+</p>
+
 # Make IT Work Cloud
 
 Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.cloud/).
