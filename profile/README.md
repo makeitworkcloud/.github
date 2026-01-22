@@ -40,8 +40,8 @@ Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.clo
 3. `tfroot-cloudflare` → DNS, tunnels, Zero Trust
 4. `ansible-site-cluster` → deploy CRC cluster
 5. `kustomize-cluster` → ArgoCD syncs workloads
-6. `ansible-project-libvirt` → configure VMs (executed by `tfroot-libvirt`)
-7. `tfroot-libvirt` → provision VMs
+6. `tfroot-libvirt` → provision VMs
+7. `ansible-project-libvirt` → configure VMs
 
 ## Prerequisites
 
