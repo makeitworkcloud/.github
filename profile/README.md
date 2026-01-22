@@ -1,7 +1,7 @@
 # Make IT Work Cloud
 
 <p align="center">
-  <img src="makeitwork-agent.webp" alt="Make IT Work Agent" width="300">
+  <img src="makeitwork-agent.jpg" alt="Make IT Work Agent" width="300">
 </p>
 
 Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.cloud/).
