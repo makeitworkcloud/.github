@@ -1,7 +1,5 @@
 # Make IT Work Cloud
 
----
-
 <p align="center">
   <img src="makeitwork-agent.png" alt="Make IT Work Agent" width="300">
 </p>
