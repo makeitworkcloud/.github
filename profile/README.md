@@ -29,11 +29,11 @@ Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.clo
 ├─────────────────────────────────────────────────────────────────────────┤
 │                              SHARED                                     │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  ansible-role-crc           Reusable Ansible Role to Deploy OpenShift   │
-│  terraform-libvirt-domain   Reusable OpenTofu module for libvirt VMs    │
-│  shared-workflows           Reusable GitHub Actions workflows           │
-│  images                     Container images and shared configs         │
-│  cflan                      Cloudflare LAN utilities for servers        │
+│  ansible-role-crc         Reusable Ansible Role to Deploy OpenShift     │
+│  cflan                    Cloudflare LAN utilities for servers          │
+│  images                   Container images and shared configs           │
+│  shared-workflows         Reusable GitHub Actions workflows             │
+│  terraform-libvirt-domain Reusable OpenTofu module for libvirt VMs      │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
