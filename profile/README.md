@@ -42,10 +42,10 @@ Personal sandbox infrastructure behind [makeitwork.cloud](https://makeitwork.clo
 1. `tfroot-aws` → S3 buckets for state backend and web hosting
 2. `tfroot-github` → creates repos and org settings
 3. `tfroot-cloudflare` → DNS, tunnels, Zero Trust
-4. `ansible-site-cluster` → deploy CRC cluster
-5. `kustomize-cluster` → ArgoCD syncs workloads
-6. `tfroot-libvirt` → provision VMs
-7. `ansible-project-libvirt` → configure VMs
+4. `tfroot-libvirt` → deploy VMs
+5. `ansible-project-libvirt` → configure VMs
+6. `ansible-site-cluster` → deploy k8s cluster
+7. `kustomize-cluster` → configure k8s cluster
 
 ## Prerequisites
 
